@@ -33,7 +33,7 @@ Scanner scan = new Scanner(System.in);
         String item = scan.nextLine();
         System.out.println("Enter the serial number:");
         String Number = scan.nextLine();
-        System.out.println("Enter the value in dollars (whole number)");
+        System.out.println("Enter the value in dollars (whole number):");
         int price = scan.nextInt();
         x = new Inventory(item, Number, price);
         ArList.add(x);
