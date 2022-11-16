@@ -59,7 +59,7 @@ Scanner scan = new Scanner(System.in);
           if (edit.equals(ArList.get(e).Number)){
             System.out.println("Enter the new name:");
             String editItem = scan.nextLine();
-            System.out.println("Enter the new calue in dollars (whole number):");
+            System.out.println("Enter the new value in dollars (whole number):");
             int editPrice = scan.nextInt();
             ArList.set(e, new Inventory(editItem, edit, editPrice));
             
